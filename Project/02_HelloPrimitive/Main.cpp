@@ -1,47 +1,33 @@
 ﻿#include <GLFW/glfw3.h>
 
-void DrawPoint(float x0, float y0) {
-    glPointSize(4);
+struct POINT
+{
+    float x, y;
+};
+
+void DrawPoint(float x, float y, float size = 1.0f) {
+    // 设置质点大小
+    glPointSize(size);
     glBegin(GL_POINTS);
-    glVertex3f(x0, y0, 0);
+    glVertex3f(x, y, 0);
     glEnd();
 }
 
-void DrawLine(float x0, float y0, float edge) {
-    glLineWidth(4.0f);
+void DrawLine(float x1, float y1, float x2, float y2, float width = 1.0f) {
+    // 设置线段宽度
+    glLineWidth(width);
     glBegin(GL_LINES);
-    glVertex3f(x0, y0, 0);
-    glVertex3f(x0 + edge, y0, 0);
+    glVertex3f(x1, y1, 0);
+    glVertex3f(x2, y2, 0);
     glEnd();
 }
 
-void DrawTriangle(float x0, float y0, float edge) {
-    glBegin(GL_TRIANGLES);
-    glVertex3f(x0, y0, 0);
-    glVertex3f(x0, y0 + edge, 0);
-    glVertex3f(x0 + edge, y0 + edge, 0);
-    glEnd();
-}
-
-void DrawQuad(float x0, float y0, float edge) {
-    glBegin(GL_QUADS);
-    glVertex3f(x0, y0, 0);
-    glVertex3f(x0, y0 + edge, 0);
-    glVertex3f(x0 + edge, y0 + edge, 0);
-    glVertex3f(x0 + edge, y0, 0);
-    glEnd();
-}
-
-void DrawPolygon(float x0, float y0, float edge) {
+void DrawPolygon(const POINT* points, int num) {
     glBegin(GL_POLYGON);
-    glVertex3f(x0, y0, 0);
-    glVertex3f(x0 - 0.5f * edge, y0 + 0.5f * edge, 0);
-    glVertex3f(x0 - 0.5f * edge, y0 + 1.2f * edge, 0);
-    glVertex3f(x0, y0 + 1.7f * edge, 0);
-    glVertex3f(x0 + edge, y0 + 1.7f * edge, 0);
-    glVertex3f(x0 + 1.5f * edge, y0 + 1.2f * edge, 0);
-    glVertex3f(x0 + 1.5f * edge, y0 + 0.5f * edge, 0);
-    glVertex3f(x0 + edge, y0, 0);
+    for (int i = 0; i < num; i++)
+    {
+        glVertex3f(points[i].x, points[i].y, 0);
+    }
     glEnd();
 }
 
@@ -55,22 +41,15 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "DrawPrimitive", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "HelloPrimitive", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
         return -1;
     }
 
-
-    if (!glIsEnabled(GL_POLYGON_SMOOTH)) {
-        glEnable(GL_POLYGON_SMOOTH);
-    }
-
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
-
-    glViewport(0, 0, 640, 480);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
@@ -79,19 +58,22 @@ int main(void)
         glClear(GL_COLOR_BUFFER_BIT);
 
         /* Draw point with 4.0 size */
-        DrawPoint(-0.8f, 0.5f);
-      
+        DrawPoint(-0.8f, 0.5f, 4);
+
         /* Draw line with 4.0 width */
-        DrawLine(-0.3f, 0.5f, 0.4f);
+        DrawLine(-0.3f, 0.4f, 0.2f, 0.7, 4.0f);
 
         /* Draw triangle */
-        DrawTriangle(0.5f, 0.3f, 0.4f);
+        POINT triangle[] = { {0.5, 0.3}, {0.5, 0.7}, {0.9, 0.7} };
+        DrawPolygon(triangle, 3);
 
         /* Draw quad */
-        DrawQuad(-0.9f, -0.8f, 0.4f);
+        POINT quad[] = { {-0.9f, -0.7f}, {-0.9f, -0.3f}, {-0.5f, -0.3f}, {-0.5f, -0.7f} };
+        DrawPolygon(quad, 4);
 
         /*Draw polygon */
-        DrawPolygon(0.0f, -0.8f, 0.4f);
+        POINT pts[] = { {0.3f, -0.5f},{0.4f, -0.6732f},{0.6f, -0.6732f}, {0.7, -0.5},{0.6f, -0.3268f}, {0.4f, -0.3268f} };
+        DrawPolygon(pts, 6);
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);

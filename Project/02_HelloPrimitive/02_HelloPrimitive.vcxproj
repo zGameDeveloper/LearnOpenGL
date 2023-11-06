@@ -24,7 +24,7 @@
     <ProjectGuid>{a7f8c475-3def-4368-8bf4-d125ad0ee55a}</ProjectGuid>
     <RootNamespace>My02DrawPoint</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02_DrawPrimitive</ProjectName>
+    <ProjectName>02_HelloPrimitive</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

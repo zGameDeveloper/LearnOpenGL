@@ -1,2 +1,0 @@
-﻿LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  01_CreateWindow.vcxproj -> D:\MyProjects\OpenGL\LearnOpenGL\Project\Debug\01_CreateWindow.exe

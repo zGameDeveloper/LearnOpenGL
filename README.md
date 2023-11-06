@@ -8,11 +8,11 @@
 - Visual Studio Community 2022
 
 ## 项目文件结构
-├── Project	解决方案
-│    ├── Dependencies 依赖文件夹
-│    ├── 01_CreateWindow
-│    ├── 02_HelloPrimitive
-├── Project.sln 工程文件
+├── Project	解决方案<br>
+│&ensp;&ensp;&ensp;&ensp;├── Dependencies 依赖文件夹<br>
+│&ensp;&ensp;&ensp;&ensp;├── 01_CreateWindow<br>
+│&ensp;&ensp;&ensp;&ensp;├── 02_HelloPrimitive<br>
+├── Project.sln 工程文件<br>
 
 ## 目录
 1. 打开一个窗口	01_CreateWindow

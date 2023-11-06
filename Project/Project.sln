@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_CreateWindow", "01_CreateWindow\01_CreateWindow.vcxproj", "{5D783C8B-E438-4B55-AF2E-E556F628A06A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_HelloPrimitive", "02_DrawPoint\02_DrawPoint.vcxproj", "{A7F8C475-3DEF-4368-8BF4-D125AD0EE55A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_HelloPrimitive", "02_HelloPrimitive\02_HelloPrimitive.vcxproj", "{A7F8C475-3DEF-4368-8BF4-D125AD0EE55A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
