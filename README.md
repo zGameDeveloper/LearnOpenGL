@@ -18,18 +18,19 @@
 
 ## 目录
 每一个项目工程都可以独立运行的。
-1. 打开一个窗口&emsp;01_CreateWindow&emsp;https://www.toutiao.com/article/7294560261539725843/
-- 通过 GLFW 创建一个窗口
-2. 你好，图元&emsp;&emsp;02_HelloPrimitive&emsp;https://www.toutiao.com/article/7298165586935333417/
-- 通过 glBengin、glVertex3f 绘制基本图元
-3. 接入GLEW&emsp;&emsp;03_GLEW&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7299268967548486155/
-4.使用DrawArrays进行绘制&emsp;04_DrawArrays&emsp;
-- glGenBuffers
-- glBindBuffer
-- glBufferData
-- glVertexAttribPointer
-- glEnableVertexAttribArray
-- glDrawArrays
+1. 打开一个窗口：01_CreateWindow&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7294560261539725843/
+    - 通过 GLFW 创建一个窗口
+2. 你好，图元：02_HelloPrimitive&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7298165586935333417/
+    - glBengin
+    - glVertex3f
+3. 接入GLEW：03_GLEW&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7299268967548486155/
+4. 使用DrawArrays进行绘制：04_DrawArrays&emsp;https://www.toutiao.com/article/7314116504373510695/
+    - glGenBuffers
+    - glBindBuffer
+    - glBufferData
+    - glVertexAttribPointer
+    - glEnableVertexAttribArray
+    - glDrawArrays
 
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
