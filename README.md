@@ -1,7 +1,7 @@
 # LearnOpenGL
 
 ## 前言
-记录学习OpenGL的过程，顺便把踩过的坑和大家分享一下。
+记录学习OpenGL的过程，顺便把踩过的坑和大家分享一下。每个项目都可以单独运行。
 
 ## 开发环境和工具
 - Windows 10
@@ -35,7 +35,7 @@
     - glDrawArrays
 5. 使用DrawElemtes进行绘制：05_DrawElements&emsp;https://www.toutiao.com/article/7317075299152527883/
     - glDrawElements
-6. 着色器基础：06_Shader&emsp;&emsp;&emsp;
+6. 着色器基础：06_Shader&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7317915584849723915/
     - glCreateShader
     - glShaderSource
     - glCompileShader
