@@ -15,6 +15,7 @@
 │&ensp;&ensp;&ensp;&ensp;├── 03_GLEW<br>
 │&ensp;&ensp;&ensp;&ensp;├── 04_DrawArrays<br>
 │&ensp;&ensp;&ensp;&ensp;├── 05_DrawElements<br>
+│&ensp;&ensp;&ensp;&ensp;├── 06_Shader<br>
 ├── Project.sln 工程文件<br>
 
 ## 目录
@@ -34,7 +35,14 @@
     - glDrawArrays
 5. 使用DrawElemtes进行绘制：05_DrawElements&emsp;https://www.toutiao.com/article/7317075299152527883/
     - glDrawElements
-
+6. 着色器基础：06_Shader&emsp;&emsp;&emsp;
+    - glCreateShader
+    - glShaderSource
+    - glCompileShader
+    - glCreateProgram
+    - glAttachShader
+    - glLinkProgram
+    - glUseProgram
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
 - LearnOpen CN, https://learnopengl-cn.github.io/

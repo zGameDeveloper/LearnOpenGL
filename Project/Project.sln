@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_DrawArrays", "04_DrawArr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_DrawElements", "05_DrawElements\05_DrawElements.vcxproj", "{69008A4E-C6DE-4D40-BAE1-F78B510D940F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_Shader", "06_Shader\06_Shader.vcxproj", "{2BCAEFC7-0001-45D1-B75D-1938F807E846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{69008A4E-C6DE-4D40-BAE1-F78B510D940F}.Release|x64.Build.0 = Release|x64
 		{69008A4E-C6DE-4D40-BAE1-F78B510D940F}.Release|x86.ActiveCfg = Release|Win32
 		{69008A4E-C6DE-4D40-BAE1-F78B510D940F}.Release|x86.Build.0 = Release|Win32
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Debug|x64.ActiveCfg = Debug|x64
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Debug|x64.Build.0 = Debug|x64
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Debug|x86.ActiveCfg = Debug|Win32
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Debug|x86.Build.0 = Debug|Win32
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Release|x64.ActiveCfg = Release|x64
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Release|x64.Build.0 = Release|x64
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Release|x86.ActiveCfg = Release|Win32
+		{2BCAEFC7-0001-45D1-B75D-1938F807E846}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
