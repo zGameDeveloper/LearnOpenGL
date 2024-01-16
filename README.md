@@ -9,13 +9,20 @@
 
 ## 项目文件结构
 ├── Project	解决方案<br>
-│&ensp;&ensp;&ensp;&ensp;├── Dependencies 依赖文件夹<br>
-│&ensp;&ensp;&ensp;&ensp;├── 01_CreateWindow<br>
-│&ensp;&ensp;&ensp;&ensp;├── 02_HelloPrimitive<br>
-│&ensp;&ensp;&ensp;&ensp;├── 03_GLEW<br>
-│&ensp;&ensp;&ensp;&ensp;├── 04_DrawArrays<br>
-│&ensp;&ensp;&ensp;&ensp;├── 05_DrawElements<br>
-│&ensp;&ensp;&ensp;&ensp;├── 06_Shader<br>
+│&ensp;&ensp;&ensp;&ensp;├─ Dependencies 依赖文件夹<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 01_CreateWindow<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 02_HelloPrimitive<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 03_GLEW<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 04_DrawArrays<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 05_DrawElements<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 06_Shader<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ src<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 07_Texture<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ src<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ vendor<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ stb_image<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
 ├── Project.sln 工程文件<br>
 
 ## 目录
@@ -43,6 +50,13 @@
     - glAttachShader
     - glLinkProgram
     - glUseProgram
+7. 纹理基础：07_Texture
+    - glGenTextures
+    - glBindTexture
+    - glTexParameteri
+    - glTexImage2D
+    - glGenerateMipmap
+    - glActiveTexture
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
 - LearnOpen CN, https://learnopengl-cn.github.io/
