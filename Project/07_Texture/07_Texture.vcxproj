@@ -148,9 +148,7 @@
     <None Include="res\shaders\Basic.vert" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\textures\face.png" />
     <Image Include="res\textures\OpenGL.png" />
-    <Image Include="res\textures\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

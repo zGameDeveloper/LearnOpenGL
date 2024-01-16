@@ -50,7 +50,7 @@
     - glAttachShader
     - glLinkProgram
     - glUseProgram
-7. 纹理基础：07_Texture
+7. 纹理基础：07_Texture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7323047177029190180/
     - glGenTextures
     - glBindTexture
     - glTexParameteri
