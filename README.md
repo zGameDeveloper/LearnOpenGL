@@ -23,6 +23,12 @@
 │&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ vendor<br>
 │&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ stb_image<br>
 │&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 08_Transformation<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ src<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ vendor<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ stb_image<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ glm<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
 ├── Project.sln 工程文件<br>
 
 ## 目录
@@ -57,8 +63,13 @@
     - glTexImage2D
     - glGenerateMipmap
     - glActiveTexture
+8. 变换：08_Transformation
+    - glGetUniformLocation
+    - glUniformMatrix4fv
+
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
 - LearnOpen CN, https://learnopengl-cn.github.io/
+- opengl-tutoial CN, http://www.opengl-tutorial.org/cn
 - 《OpenGL 编程指南》（第9版）—— 红宝书
 - 《OpenGL 超级宝典》（第5版）—— 蓝宝书
