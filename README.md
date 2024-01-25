@@ -34,7 +34,7 @@
 ## 目录
 每一个项目工程都可以独立运行的。
 1. 打开一个窗口：01_CreateWindow&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7294560261539725843/
-![image][01.CreateWindow]    
+![01.CreateWindow](https://github.com/zGameDeveloper/LearnOpenGL/blob/729808653e68e2f1256aada1cfdada11e3a36e43/doc/res/01.CreateWindow.png)    
     - 通过 GLFW 创建一个窗口
     
 2. 你好，图元：02_HelloPrimitive&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7298165586935333417/
