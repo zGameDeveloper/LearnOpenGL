@@ -45,6 +45,12 @@ void rotate()
 	std::cout << "newDir x:" << newDir.x << ", y:" << newDir.y << ", z:" << newDir.z << ", w:" << newDir.w << std::endl;
 }
 
+void model_matrix() 
+{
+	// ÈÆxÖáÐý×ª-55¶È
+	glm::mat4 model = glm::rotate(glm::radians(-55.0f), glm::vec3(1, 0, 0));
+}
+
 int main(void)
 {	
 	glm::mat4 rotate = glm::rotate(glm::radians(90.0f), glm::vec3(1, 0, 0));

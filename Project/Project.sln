@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_Transformation", "08_Tra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{809855DD-CB19-4911-BB93-4C0C7A9F4405}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_CoordinateSystem", "09_CoordinateSystem\09_CoordinateSystem.vcxproj", "{071CB83C-B213-4DD2-9D01-3219BB595B8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{809855DD-CB19-4911-BB93-4C0C7A9F4405}.Release|x64.Build.0 = Release|x64
 		{809855DD-CB19-4911-BB93-4C0C7A9F4405}.Release|x86.ActiveCfg = Release|Win32
 		{809855DD-CB19-4911-BB93-4C0C7A9F4405}.Release|x86.Build.0 = Release|Win32
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Debug|x64.ActiveCfg = Debug|x64
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Debug|x64.Build.0 = Debug|x64
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Debug|x86.Build.0 = Debug|Win32
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Release|x64.ActiveCfg = Release|x64
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Release|x64.Build.0 = Release|x64
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Release|x86.ActiveCfg = Release|Win32
+		{071CB83C-B213-4DD2-9D01-3219BB595B8D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
