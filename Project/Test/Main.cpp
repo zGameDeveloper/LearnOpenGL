@@ -1,6 +1,9 @@
 #include <iostream>
 #include "glm/glm.hpp"
 #include "glm/gtx/transform.hpp"
+#include "assimp/Importer.hpp"
+#include "assimp/scene.h"
+#include "assimp/postprocess.h"
 
 
 void translate()
@@ -51,6 +54,22 @@ void model_matrix()
 	glm::mat4 model = glm::rotate(glm::radians(-55.0f), glm::vec3(1, 0, 0));
 }
 
+bool loadModel(std::string path)
+{
+	Assimp::Importer import;
+	const aiScene * scene = import.ReadFile(path, aiProcess_Triangulate | aiProcess_FlipUVs);
+
+	if (!scene || scene->mFlags & AI_SCENE_FLAGS_INCOMPLETE || !scene->mRootNode)
+	{
+		std::cout << "ERROR::ASSIMP::" << import.GetErrorString() << std::endl;
+		return false;
+	}
+
+	std::cout << "LoadFinish! The count of vertice :" << (*(scene->mMeshes))->mNumVertices << std::endl;
+
+	return true;
+}
+
 int main(void)
 {	
 	glm::mat4 rotate = glm::rotate(glm::radians(90.0f), glm::vec3(1, 0, 0));
@@ -63,5 +82,8 @@ int main(void)
 	glm::vec4 newDir = rotate * dir;
 	std::cout << "dir x:" << dir.x << ", y:" << dir.y << ", z:" << dir.z << ", w:" << dir.w << std::endl;
 	std::cout << "newDir x:" << newDir.x << ", y:" << newDir.y << ", z:" << newDir.z << ", w:" << newDir.w << std::endl;
+
+	loadModel("res/models/fels.3ds");
+
 	return 0;
 }
