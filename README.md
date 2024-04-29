@@ -37,6 +37,12 @@
 │&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
 │&ensp;&ensp;&ensp;&ensp;├─ 10_Assimp<br>
 │&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
+│&ensp;&ensp;&ensp;&ensp;├─ 11_Mesh<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ src<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ vendor<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ stb_image<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ glm<br>
+│&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├─ res<br>
 ├── Project.sln 工程文件<br>
 
 ## 目录
@@ -91,6 +97,7 @@
 9. 坐标系统：09_CoordinateSystem&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7327967563743347239/
 ![09.CoordinateSystem](https://github.com/zGameDeveloper/LearnOpenGL/blob/main/doc/res/09.CoordinateSystem.png)
 10. Assimp构建和导入：10_Assimp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7355314396362457663/
+11. 网格基础：11_Mesh
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
 - LearnOpen CN, https://learnopengl-cn.github.io/
