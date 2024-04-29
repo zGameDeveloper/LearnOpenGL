@@ -97,7 +97,8 @@
 9. 坐标系统：09_CoordinateSystem&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7327967563743347239/
 ![09.CoordinateSystem](https://github.com/zGameDeveloper/LearnOpenGL/blob/main/doc/res/09.CoordinateSystem.png)
 10. Assimp构建和导入：10_Assimp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7355314396362457663/
-11. 网格基础：11_Mesh
+11. 网格基础：11_Mesh&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7363125067305304595/
+![11.Mesh](https://github.com/zGameDeveloper/LearnOpenGL/blob/main/doc/res/11.Mesh.png)
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
 - LearnOpen CN, https://learnopengl-cn.github.io/
