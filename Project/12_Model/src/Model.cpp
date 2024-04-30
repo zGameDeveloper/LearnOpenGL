@@ -11,6 +11,7 @@ Model::Model(const std::string& path)
 		return;
 	}
 
+	// 处理根节点
 	processNode(scene->mRootNode, scene);
 }
 
