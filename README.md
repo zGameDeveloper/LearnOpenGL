@@ -119,7 +119,8 @@
 10. Assimp构建和导入：10_Assimp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7355314396362457663/
 11. 网格基础：11_Mesh&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7363125067305304595/
 ![11.Mesh](https://github.com/zGameDeveloper/LearnOpenGL/blob/main/doc/res/11.Mesh.png)
-12. 导入3D模型：12_Model
+12. 导入3D模型：12_Model&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;https://www.toutiao.com/article/7363461359126594067/
+![12.Model](https://github.com/zGameDeveloper/LearnOpenGL/blob/main/doc/res/12.Model.gif)
 ## 参考
 - TheCherno OpenGL教程，来源：哔哩哔哩
 - LearnOpen CN, https://learnopengl-cn.github.io/
